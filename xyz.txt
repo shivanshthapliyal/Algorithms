@@ -1,0 +1,234 @@
+1. Sort Algorithms
+
+Sorting is the most heavily studied concept in Computer Science. Idea is to arrange the items of a list in a specific order. Though every major programming language has built-in sorting libraries, it comes in handy if you know how they work. Depending on the requirement, you may want to use any of these.
+
+Merge Sort
+Quick Sort
+Bucket Sort
+Heap Sort
+Counting Sort
+
+
+2. Search Algorithms
+
+Binary Search (in linear data structures) – Binary search is used to perform a very efficient search on sorted dataset. The time complexity is O(log2N). The idea is to repeatedly divide in half the portion of the list that could contain the item until we narrow it down to one possible item. Some applications are:
+
+When you search for a name of the song in a sorted list of songs, it performs binary search and string-matching to quickly return the results.
+Used to debug in git through git bisect
+Depth/Breadth First Search (in Graph data structures)
+
+
+3. Hashing
+
+Hash lookup is currently the most widely used technique to find appropriate data by key or ID. We access data by its index. Previously we relied on Sorting+Binary Search to look for index whereas now we use hashing.
+
+The data structure is referred as Hash-Map or Hash-Table or Dictionary that maps keys to values, efficiently. We can perform value lookups using keys. Idea is to use an appropriate hash function which does the key -> value mapping. Choosing a good hash function depends on the scenario.
+
+Applications:
+
+In routers, to store IP address -> Path pair for routing mechanisms
+To perform the check if a value already exists in a list. Linear search would be expensive. We can also use Set data structure for this operation.
+
+
+
+
+https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
+
+Graph
+
+1. Breadth First Search (BFS)
+2. Depth First Search (DFS)
+3. Shortest Path from source to all vertices **Dijkstra**
+4. Shortest Path from every vertex to every other vertex **Floyd Warshall**
+5. To detect cycle in a Graph **Union Find**
+6. Minimum Spanning tree **Prim**
+7. Minimum Spanning tree **Kruskal**
+8. Topological Sort
+9. Boggle (Find all possible words in a board of characters)
+10. Bridges in a Graph
+
+
+Linked List
+
+1. Insertion of a node in Linked List (On the basis of some constraints)
+2. Delete a given node in Linked List (under given constraints)
+3. Compare two strings represented as linked lists
+4. Add Two Numbers Represented By Linked Lists
+5. Merge A Linked List Into Another Linked List At Alternate Positions
+6. Reverse A List In Groups Of Given Size
+7. Union And Intersection Of 2 Linked Lists
+8. Detect And Remove Loop In A Linked List
+9. Merge Sort For Linked Lists
+10. Select A Random Node from A Singly Linked List
+
+
+Dynamic Programming
+
+1. Longest Common Subsequence
+2. Longest Increasing Subsequence
+3. Edit Distance
+4. Minimum Partition
+5. Ways to Cover a Distance
+6. Longest Path In Matrix
+7. Subset Sum Problem
+8. Optimal Strategy for a Game
+9. 0-1 Knapsack Problem
+10. Boolean Parenthesization Problem
+
+
+Sorting And Searching
+
+
+1. Binary Search
+2. Search an element in a sorted and rotated array
+3. Bubble Sort
+4. Insertion Sort
+5. Merge Sort
+6. Heap Sort (Binary Heap)
+7. Quick Sort
+8. Interpolation Search
+9. Find Kth Smallest/Largest Element In Unsorted Array
+10. Given a sorted array and a number x, find the pair in array whose sum is closest to x
+
+
+Tree / Binary Search Tree
+
+1. Find Minimum Depth of a Binary Tree
+2. Maximum Path Sum in a Binary Tree
+3. Check if a given array can represent Preorder Traversal of Binary Search Tree
+4. Check whether a binary tree is a full binary tree or not
+5. Bottom View Binary Tree
+6. Print Nodes in Top View of Binary Tree
+7. Remove nodes on root to leaf paths of length < K
+8. Lowest Common Ancestor in a Binary Search Tree
+9. Check if a binary tree is subtree of another binary tree
+10. Reverse alternate levels of a perfect binary tree
+
+
+Number Theory
+
+1. Modular Exponentiation
+2. Modular multiplicative inverse
+3. Primality Test | Set 2 (Fermat Method)
+4. Euler’s Totient Function
+5. Sieve of Eratosthenes
+6. Convex Hull
+7. Basic and Extended Euclidean algorithms
+8. Segmented Sieve
+9. Chinese remainder theorem
+10. Lucas Theorem
+
+
+BIT Manipulation
+
+1. Maximum Subarray XOR
+2. Magic Number
+3. Sum of bit differences among all pairs
+4. Swap All Odds And Even Bits
+5. Find the element that appears once
+6. Binary representation of a given number
+7. Count total set bits in all numbers from 1 to n
+8. Rotate bits of a number
+9. Count number of bits to be flipped to convert A to B
+10. Find Next Sparse Number
+
+
+
+String / Array
+
+1. Reverse an array without affecting special characters
+2. All Possible Palindromic Partitions
+3. Count triplets with sum smaller than a given value
+4. Convert array into Zig-Zag fashion
+5. Generate all possible sorted arrays from alternate elements of two given sorted arrays
+6. Pythagorean Triplet in an array
+7. Length of the largest subarray with contiguous elements
+8. Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
+9. Smallest subarray with sum greater than a given value
+10. Stock Buy Sell to Maximize Profit
+
+
+
+
+
+https://www.quora.com/What-basic-data-structures-and-algorithms-should-one-learn-before-starting-competitive-programming
+
+
+Binary Search : tutorial with problems, tutorial with implementation, problem
+Quicksort : tutorial with implementation, tutorial with problems
+Merge Sort : tutorial with implementation, tutorial with problems
+Suffix Array : tutorial with implementation, tutorial with implementation, problem, problem, problem
+Knuth-Morris-Pratt Algorithm (KMP) : tutorial, tutorial with implementation, problem, problem, problem
+Rabin-Karp Algorithm : tutorial with implementation, tutorial, problem, problem
+Tries : tutorial with problems, Tutorial : I, II, tutorial, problem, problem, problem
+Depth First Traversal of a graph : tutorial with implementation, tutorial with problems, problem, problem, problem
+Breadth First Traversal of a graph : tutorial with implementation, tutorial with problems, problem, problem, problem, Flood Fill
+Dijkstra's Algorithm : tutorial with problems, problem, tutorial(greedy), tutorial (with heap), implementation, problem, problem
+Binary Indexed Tree : tutorial with problems, tutorial, original paper, tutorial, tutorial, problem, problem, problem, problem,problem, problem
+Segment Tree (with lazy propagation) : tutorial with implementation, tutorial, tutorial with problems and implementation,tutorial with implementation, Persistent Segment Tree, problems same as BIT, problem
+Z algorithm : tutorial with problem, tutorial, problems same as KMP.
+Floyd Warshall Algorithm : tutorial with implementation, problem, problem
+Sparse Table(RMQ) : tutorial with problems, tutorial with implementation(C++), java implementation
+Heap / Priority Queue / Heapsort : implementation with explanation, tutorial, implementation, problem, reading the chapter from clrs is highly recommended.
+Modular Multiplicative Inverse
+nCr % M
+Suffix Automaton : detailed paper, tutorial with implementation (I), tutorial with implementation (II), problem, problem,problem, problem, tutorial with implementation
+Lowest Common Ancestor : tutorial with problems, tutorial(binary tree) with implementation, detailed paper for LCA in DAGs, problem, problem
+Counting Inversions : Divide and Conquer, Segment Tree, Fenwick Tree, problem
+Euclid's Extended Algorithm
+Suffix Tree : tutorial, tutorial, tutorial, tutorial, implementation, implementation, problem, problem, problem, problem
+Dynamic Programming : chapter from clrs(essential), tutorial with problems, problem, problem, problem, problem, problem,tutorial, problem, problem, problem, longest increasing subsequence, bitmask dp, bitmask dp, optimization, problem, problem,problem, problem, problem, problem, problem, dp on trees : I, II
+Basic Data Structures : tutorial, Stack implementation, Queue implementation and tutorial, Linked list implementation
+logarithmic exponentiation
+Graphs : definition, representation, definition, representation, problem, problem
+Minimum Spanning Tree : tutorial, tutorial with kruskal's implementation, Prim's implementation, problem, problem, problem,problem, problem
+Efficient Prime Factorization
+Combinatorics : tutorial with problems, problem
+Union Find/Disjoint Set : tutorial, tutorial with problems, problem, problem, problem
+Knapsack problem : solution and implementation
+Aho-Corasick String Matching Algorithm : tutorial, implementation, problem, problem, problem, problem
+Strongly Connected Components : tutorial with implementation, tutorial, problem, problem, problem
+Bellman Ford algorithm : tutorial with implementation, tutorial with implementation, problem, problem
+Heavy-light Decomposition : tutorial, tutorial, implementation, implementation, problem, problem, problem, problem, problem,problem, problem
+Convex Hull : tutorial with jarvis's algorithm implementation, tutorial with graham scan, tutorial, implementation, problem,problem, problem, problem
+Line Intersection : tutorial with imp., tutorial with problems
+Sieve of Erastothenes
+Interval Tree : tutorial with implementation, problem, problem, problem, problem, problem, problem, tutorial
+Counting Sort
+Probabilities
+Building up the recurrence matrix to compute recurrences in O(logN) time
+Network flow : (Max Flow)Tutorial : I, II, Max flow(ford-fulkerson) tutorial with implementation, (Min cut) tutorial with implementation, (Min cost flow)Tutorial : I, II, III, Dinic's algorithm with implementation, Max flow by Edmonds Karp with implementation, problem, problem, problem, problem, problem, problem, problem, problem, problem, problem, problem,problem, problem, problem, problem
+K-d tree : tutorial, tutorial, implementation, problem
+Deque
+Binary Search Tree : tutorial with implementation, Searching and insertion, Deletion
+Quick Select : implementation, implementation
+Treap/Cartesian Tree : tutorial(detailed), tutorial with implementation, problem
+Game Theory : detailed paper, tutorial with problems, Grundy numbers, Tutorial with example problems - I, II, III, IV, tutorial with problems, problem, problem, problem, problem, problem, problem, problem, problem, problem, problem, problem, Nim
+STL (C++) : I, II, Crash Course
+Maximum Bipartite Matching
+Manacher's Algorithm : implementation, tutorial, tutorial with implementation, tutorial with implementation, problem, problem,problem
+Miller-Rabin Primality Test : Code
+Stable Marriage Problem
+Hungarian Algorithm
+Sweep line Algorithm : I, II
+LCP : tutorial with implementation, tutorial with implementation
+Gaussian Elimination
+Pollard Rho Integer Factorization, problem
+Topological Sorting
+Detecting Cycles in a Graph : Directed - I, II Undirected : I
+Geometry : Basics
+Backtracking : N queens problem, Tug of War, Sudoku
+Eulerian and Hamiltonian Paths : tutorial, tutorial, (eulerian path and cycle)implementation, (hamiltonian cycle)implementation
+Graph Coloring : tutorial with implementation
+Meet in the Middle : tutorial, implementation
+Arbitrary Precision Integer(BigInt), II
+Radix Sort, Bucket Sort
+Johnson's Algorithm : tutorial, tutorial, implementation
+Maximal Matching in a General Graph : Blossom/Edmond's Algorithm with implementation, Tutte Matrix, problem
+Recursion : I, II, Towers of Hanoi with explanation
+Inclusion and Exclusion Principle
+
+
+
+
+
