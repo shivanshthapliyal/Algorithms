@@ -1,2 +1,2 @@
 # 21-days-of-algorithms
-I set the challenge for myself to implement algorithm by algorithm, day by day, until the number reaches 21.
+I set the challenge for myself to implement as many algorithms I can in 21 days.
