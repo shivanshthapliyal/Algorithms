@@ -14,9 +14,9 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - A divide and conquer sorting approach which has a time-complexity of O(n log(n)).
 - It is also called partition-exchange sort.
 - Unlike merge sort where the main work happens while merging the subarrays, here in quick sort most of the work happens during the splitting process.
-- Worst case time complexity of merge sort is  O (n^2).
-- Average time complexity(Big-theta) of merge sort is O(n log n)
-- Space complexity of merge sort is  O (n log n).
+- Worst case time complexity of quick sort is  O (n^2).
+- Average time complexity(Big-theta) of quick sort is O(n log n)
+- Space complexity of quick sort is  O (n log n).
 - Quick sort is an in-place sorting algorithm.
 - The default implementation of quick sort is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
 ---
