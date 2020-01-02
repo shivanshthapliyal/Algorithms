@@ -17,4 +17,5 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - Worst case time complexity of merge sort is  O (n^2).
 - Average time complexity(Big-theta) of merge sort is O(n log n)
 - Space complexity of merge sort is  O (n log n).
-- Merge sort scales well with large amounts of data.
+- Quick sort is an in-place sorting algorithm.
+- The default implementation of quick sort is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
