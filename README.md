@@ -20,3 +20,13 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - Quick sort is an in-place sorting algorithm.
 - The default implementation of quick sort is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
 ---
+#### [Insertion Sort](day-1-sorting/insertion-sort.py) 
+- Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
+- Incremental approach.
+- Insertion sort takes maximum time to sort if elements are sorted in reverse order. And it takes minimum time (Order of n) when elements are already sorted.
+- Worst case time complexity of insertion sort is  O (n^2).
+- Space complexity of insertion sort is  O (1).
+- Insertion sort is an in-place sorting algorithm.
+- The default implementation of insertion sort is stable.
+- Insertion sort is used when number of elements is small. It can also be useful when input array is almost sorted, only few elements are misplaced in complete big array.
+---
