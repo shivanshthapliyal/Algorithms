@@ -35,13 +35,10 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 ### Graph
 #### [Breadth First Search (BFS)](day-2-graph/graph-bfs.py) 
 - 
--
 ---
 #### [Depth First Search (DFS)](day-2-graph/graph-dfs.py) 
 - 
--
 ---
 #### [Dijkstra's Algorithm](day-2-graph/graph-dijkstra.py) 
 - Shortest Path from source to all vertices.
--
 ---
