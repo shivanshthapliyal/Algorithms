@@ -34,7 +34,7 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 ## [Day - 2](day-2-graph/)
 ### Graph
 #### [Breadth First Search (BFS)](day-2-graph/graph-bfs.py) 
-- 
+- Unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array in this implementation.
 ---
 #### [Depth First Search (DFS)](day-2-graph/graph-dfs.py) 
 - 
