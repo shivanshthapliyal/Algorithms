@@ -37,7 +37,7 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - Unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array in this implementation.
 ---
 #### [Depth First Search (DFS)](day-2-graph/graph-dfs.py) 
-- 
+- Unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array in this implementation.
 ---
 #### [Dijkstra's Algorithm](day-2-graph/graph-dijkstra.py) 
 - Shortest Path from source to all vertices.
