@@ -30,3 +30,18 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - The default implementation of insertion sort is stable.
 - Insertion sort is used when number of elements is small. It can also be useful when input array is almost sorted, only few elements are misplaced in complete big array.
 ---
+
+## [Day - 2](day-2-graph/)
+### Graph
+#### [Breadth First Search (BFS)](day-2-graph/graph-bfs.py) 
+- 
+-
+---
+#### [Depth First Search (DFS)](day-2-graph/graph-dfs.py) 
+- 
+-
+---
+#### [Dijkstra's Algorithm](day-2-graph/graph-dijkstra.py) 
+- Shortest Path from source to all vertices.
+-
+---
