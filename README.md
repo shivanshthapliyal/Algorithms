@@ -9,7 +9,7 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - Worst case time complexity of merge sort is  O (n log(n)).
 - Space complexity of merge sort is  O (n).
 - Merge sort scales well with large amounts of data.
----
+
 #### [Quick Sort](day-1-sorting/quick-sort.py) 
 - A divide and conquer sorting approach which has a time-complexity of O(n log(n)).
 - It is also called partition-exchange sort.
@@ -19,7 +19,7 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - Space complexity of quick sort is  O (n log n).
 - Quick sort is an in-place sorting algorithm.
 - The default implementation of quick sort is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
----
+
 #### [Insertion Sort](day-1-sorting/insertion-sort.py) 
 - Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
 - Incremental approach.
@@ -35,19 +35,26 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 ### Graph
 #### [Breadth First Search (BFS)](day-2-graph/graph-bfs.py) 
 - Unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array in this implementation.
----
+
 #### [Depth First Search (DFS)](day-2-graph/graph-dfs.py) 
 - Unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array in this implementation.
----
+
 #### [Dijkstra's Algorithm](day-2-graph/graph-dijkstra.py) 
 - Shortest Path from source to all vertices.
-- Algorithm for Dijkstra's Algorithm:
+- Algorithm for Dijkstra's:
 >1) Create a set sptSet (shortest path tree set) that keeps track of vertices included in shortest path tree, i.e., whose minimum distance from source is calculated and finalized. Initially, this set is empty.
 >2) Assign a distance value to all vertices in the input graph. Initialize all distance values as INFINITE. Assign distance value as 0 for the source vertex so that it is picked first.
 >3) While sptSet doesn’t include all vertices
 >	a) Pick a vertex u which is not there in sptSet and has minimum distance value.
 >	b) Include u to sptSet.
 >	c) Update distance value of all adjacent vertices of u. To update the distance values, iterate through all adjacent vertices. For every adjacent vertex v, if sum of distance value of u (from source) and weight of edge u-v, is less than the distance value of v, then update the distance value of v.
+---
 
+## [Day - 3](/)
+### Operations on LinkedList
+#### [Insertion in LinkedList](day-3-linkedlist/ll-insertion.py) 
+- 
+#### [Deletion in LinkedList](day-3-linkedlist/ll-deletion.py) 
+- 
 
 ---
