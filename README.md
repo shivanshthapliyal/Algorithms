@@ -1,28 +1,28 @@
 # 21-days-of-algorithms
-I set the challenge for myself to implement as many algorithms as I can in 21 days.
+I set the challenge for myself to implement as many algorithms as I can in **21** days.
 
 ## [Day - 1](day-1-sorting/)
 ### Sorting Techniques
 #### [Merge Sort](day-1-sorting/merge-sort.py) 
 - A divide and conquer sorting approach which has a time-complexity of O(n log(n)).
-- A stable sort - if two values are equal, the relative order prior to sorting will be maintained.
-- Worst case time complexity of merge sort is  O (n log(n)).
-- Space complexity of merge sort is  O (n).
+- **A stable sort** - if two values are equal, the relative order prior to sorting will be maintained.
+- Worst case **time complexity** of merge sort is  **O (n log(n))**.
+- **Space complexity** of merge sort is  **O (n)**.
 - Merge sort scales well with large amounts of data.
 
 #### [Quick Sort](day-1-sorting/quick-sort.py) 
-- A divide and conquer sorting approach which has a time-complexity of O(n log(n)).
-- It is also called partition-exchange sort.
+- A **divide and conquer sorting approach** which has a time-complexity of O(n log(n)).
+- It is also called **partition-exchange sort**.
 - Unlike merge sort where the main work happens while merging the subarrays, here in quick sort most of the work happens during the splitting process.
-- Worst case time complexity of quick sort is  O (n^2).
-- Average time complexity(Big-theta) of quick sort is O(n log n)
-- Space complexity of quick sort is  O (n log n).
-- Quick sort is an in-place sorting algorithm.
-- The default implementation of quick sort is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
+- Worst case **time complexity** of quick sort is  **O (n^2)**.
+- Average time complexity(Big-theta) of quick sort is **O(n log n)**.
+- **Space complexity** of quick sort is  **O (n log n)**.
+- Quick sort is an **in-place** sorting algorithm.
+- The default implementation of quick sort is **not stable**. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
 
 #### [Insertion Sort](day-1-sorting/insertion-sort.py) 
 - Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
-- Incremental approach.
+- **Incremental approach.**
 - Insertion sort takes maximum time to sort if elements are sorted in reverse order. And it takes minimum time (Order of n) when elements are already sorted.
 - Worst case time complexity of insertion sort is  O (n^2).
 - Space complexity of insertion sort is  O (1).
@@ -57,7 +57,7 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 - Given linked list,
 <img src="day-3-linkedlist/images/ll-insertion1.png" align="center" style="height: 64px"/>
 
-- we have to insert 9 after 6. 
+- we have to **insert 9 after 6**. 
 <img src="day-3-linkedlist/images/ll-insertion2.png" align="center" style="height: 64px"/>
 
 #### [Deletion in LinkedList](day-3-linkedlist/ll-deletion.py) 
