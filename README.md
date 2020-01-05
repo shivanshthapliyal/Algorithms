@@ -53,12 +53,13 @@ I set the challenge for myself to implement as many algorithms as I can in 21 da
 ## [Day - 3](/)
 ### Operations on LinkedList
 #### [Insertion in LinkedList](day-3-linkedlist/ll-insertion.py) 
-```
-Given linked list,
+
+- Given linked list,
 <img src="day-3-linkedlist/images/ll-insertion1.png" align="center" style="height: 64px"/>
-we have to insert 9 after 6. 
+
+- we have to insert 9 after 6. 
 <img src="day-3-linkedlist/images/ll-insertion2.png" align="center" style="height: 64px"/>
-```
+
 #### [Deletion in LinkedList](day-3-linkedlist/ll-deletion.py) 
 - 
 
