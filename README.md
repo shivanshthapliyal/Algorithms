@@ -1,5 +1,5 @@
-# 21-days-of-algorithms
-I set the challenge for myself to implement as many algorithms as I can in **21** days.
+# Algorithms
+I set the challenge for myself to implement as many algorithms as I can.
 
 ## [Day - 1](day-1-sorting/)
 ### Sorting Techniques
